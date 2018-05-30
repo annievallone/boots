@@ -1,0 +1,161 @@
+
+* {
+    /* background-color: #4aaaa5; */
+    /* color: #777777; */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-image: url('../images/light_noise_diagonal_@2X.png');
+}
+body {
+    
+}
+header {
+    background: #ffffff;
+    border: #cccccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100px;
+    line-height: 2;
+    vertical-align: middle;
+}
+
+.name {
+    float: left;
+    position: relative;
+    font-size: 25px;
+    color: #ffffff;
+    height: 100px;
+    bottom:50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #4aaaa5;
+    
+}
+#down {
+    position: relative;
+    top: 20px;
+    background: inherit;
+}
+ul {
+    float: right;
+    position: relative;
+    bottom: 50px;
+    background: #ffffff;
+    height: 100px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    padding-right: 0;
+    background: #ffffff;
+    position: relative;
+    top: 20px;
+}
+a {
+    background: #ffffff;
+}
+section {
+    background: #ffffff;
+    /* border: #dddddd; */
+    position: relative;
+    top: 50px;
+    width: 960px;
+    background-image: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.title {
+    color: #4aaaa5;
+    padding-top: 10px;
+}
+
+form {
+    width: 100%;
+    background: #ffffff;
+    padding-bottom: 10px;
+}
+input {
+    width:100%;
+    background: #ffffff;
+    padding-bottom: 10px;
+}
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff;
+}
+.submitbutton {
+    width: 50px;
+    background: #4aaaa5;
+    color: #ffffff;
+
+}
+.portfolio {
+    width: 960px;
+    background: #ffffff;
+    padding-top: 10px;
+}
+p {
+    background: #ffffff;
+    background-image: none;
+}
+img {
+    max-width: 200px;
+    height: auto;
+    float: left;
+    background: #ffffff;
+    padding: 15px;
+    display: block;
+}
+table {
+    width: inherit;
+    background: #ffffff;
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 66%;
+}
+tr {
+    background: #ffffff;
+}
+td {
+    white-space: nowrap;
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    font-size: 26px;
+    background-image:none;
+}
+#size {
+    padding-bottom: 10px;
+    height: 300px;
+    
+}
+footer {
+    background: #4aaaa5;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer {
+    background: #666666;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 5;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    width: 100%;
+
+    .footer {
+
+    }
+}
